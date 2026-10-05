@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <title>Link in Bio - Luxury Gold</title>
+    <style>
+        * { box-sizing: border-box; margin: 0; padding: 0; font-family: 'Georgia', serif; }
+        body {
+            background-color: #0b0b0b;
+            color: #d4af37;
+            display: flex; justify-content: center; align-items: center; min-height: 100vh; padding: 20px;
+        }
+        .container {
+            width: 100%; max-width: 400px;
+            background: #141414;
+            border: 1px solid #d4af37;
+            border-radius: 16px; padding: 36px 24px; text-align: center;
+            box-shadow: 0 15px 35px rgba(212, 175, 55, 0.15);
+        }
+        .avatar { width: 90px; height: 90px; border-radius: 50%; border: 2px solid #d4af37; margin-bottom: 16px; object-fit: cover; }
+        h1 { font-size: 1.3rem; color: #f3e5ab; margin-bottom: 6px; font-weight: normal; letter-spacing: 1px; }
+        p { font-size: 0.85rem; color: #a39264; margin-bottom: 24px; line-height: 1.4; font-family: sans-serif; }
+        .links { display: flex; flex-direction: column; gap: 12px; font-family: sans-serif; }
+        .link-btn {
+            display: flex; align-items: center; justify-content: center; gap: 12px;
+            padding: 14px 16px; background: #1c1c1c;
+            border: 1px solid #333333; border-radius: 8px;
+            color: #f3e5ab; text-decoration: none; font-weight: 500; font-size: 0.95rem;
+            transition: all 0.3s ease;
+        }
+        .link-btn i { font-size: 1.2rem; color: #d4af37; }
+        .link-btn:hover {
+            background: #d4af37; color: #000000; border-color: #d4af37;
+            transform: translateY(-2px);
+        }
+        .link-btn:hover i { color: #000000; }
+        .footer { margin-top: 24px; font-size: 0.75rem; color: #555555; font-family: sans-serif; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <img src="14.png" alt="Profile" class="avatar">
+        <h1>Your Name</h1>
+        <p>Digital Creator & Developer<br>Building products & sharing code.</p>
+        
+        <div class="links">
+            <a href="https://wa.me/201000000000" target="_blank" class="link-btn whatsapp">
+                <i class="fa-brands fa-whatsapp"></i> WhatsApp
+            </a>
+            <a href="https://instagram.com/yourusername" target="_blank" class="link-btn instagram">
+                <i class="fa-brands fa-instagram"></i> Instagram
+            </a>
+            <a href="https://tiktok.com/@yourusername" target="_blank" class="link-btn tiktok">
+                <i class="fa-brands fa-tiktok"></i> TikTok
+            </a>
+            <a href="https://youtube.com/@yourusername" target="_blank" class="link-btn youtube">
+                <i class="fa-brands fa-youtube"></i> YouTube
+            </a>
+            <a href="https://linkedin.com/in/yourusername" target="_blank" class="link-btn linkedin">
+                <i class="fa-brands fa-linkedin"></i> LinkedIn
+            </a>
+            <a href="https://t.me/yourusername" target="_blank" class="link-btn telegram">
+                <i class="fa-brands fa-telegram"></i> Telegram
+            </a>
+        </div>
+
+        <div class="footer">Powered by HTML & CSS</div>
+    </div>
+</body>
+</html>
